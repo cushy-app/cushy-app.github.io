@@ -10,8 +10,7 @@
               class="app-icon"
               style="min-width: 92px"
               height="auto"
-              {%
-              if
+              {%if
               site.app.icon
               %}
               src="{{ site.app.icon }}"
@@ -23,11 +22,23 @@
             <span class="app-name">{{ site.app.name }}</span>
           </div>
 
-          {% if site.marketing_header %}
-          <h2 class="marketing-header">{{ site.marketing_header }}</h2>
-          {% endif %}
+          <h2 class="marketing-header">
+            クシィ - 記録をもっとすばやく簡単に！透かし付きのカメラアプリ
+          </h2>
 
-          <p class="marketing-desc">{{ site.marketing_desc }}</p>
+          <p class="marketing-desc">
+            『クシィ』は、透かし付きのカメラアプリです。タイムスタンプ、GPS情報、メモをカメラにつけて写真を撮ることができます！<br /><br />
+            使う場面：<br />
+            ・会議のホワイトボードの写真を撮る時に時刻や場所もメモしたい！<br />
+            ・ダイエット記録では、毎日の体重の数値をメモすることより、写真一枚で記録したい！<br />
+            ・旅行や観光で訪ねた場所を写真で記録したい！<br /><br />
+            今はまだ開発途中です。今後こんな機能も追加する予定です！<br />
+            ・もっと種類豊富なスタンプを<br />
+            ・スタンプのフォーマットをカスタマイズする<br />
+            ・特定なアルバムに写真保存 など<br /><br />
+            上記以外の機能の希望もあれば、いつもお問い合わせ下さいます。<br />
+            お問い合わせ先：cushy.app.dev@gmail.com
+          </p>
           <div class="download-buttons">
             <a
               href="https://apps.apple.com/jp/app/testflight/id899247664?itsct=apps_box_badge&amp;itscg=30200"
